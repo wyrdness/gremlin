@@ -1,10 +1,8 @@
 {
-  "category": "URBAN_LEGEND",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/gremlin",
     "maintainers": [
       {
@@ -18,274 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "gremlin",
     "name": "Gremlin",
-    "aliases": [
-      {
-        "name": "Gremlins",
-        "meaning": "Plural form, often used collectively"
-      }
-    ],
+    "aliases": [],
     "category": "URBAN_LEGEND",
-    "subcategory": "Modern Folklore / Fae",
+    "subcategory": "Fae / Technological Spirit",
     "tags": [
-      "aviation",
-      "mechanical-failure",
-      "mischievous",
-      "wwii",
-      "modern-folklore",
-      "technology",
-      "imp-like"
+      "folklore",
+      "mythology"
     ],
-    "status": "folklore",
+    "status": "documented",
     "description": {
-      "summary": "Mischievous creatures blamed for mechanical and technological failures, originating from 1920s-1940s aviation folklore, especially among WWII RAF pilots.",
-      "full": "Gremlins are small, imp-like creatures from modern folklore that are blamed for causing mechanical and technological malfunctions, particularly in aircraft. Originating in Royal Air Force folklore during the 1920s-1940s, gremlins became especially popular during World War II when pilots blamed unexplained mechanical failures on these invisible or barely visible saboteurs. Described as small creatures (6 inches to 3 feet tall) with various appearances—often green or gray with large ears—gremlins evolved from aviation folklore into a broader explanation for any technological failure. Popularized by Roald Dahl's 1943 book 'The Gremlins' and the 1984 film, they represent the personification of mechanical failure and human error displacement in the modern age."
+      "summary": "Gremlins are small, imp-like creatures from modern folklore that are blamed for causing mechanical and technological malfunctions, particularly in aircraft.",
+      "full": "Gremlins are small, imp-like creatures from modern folklore that are blamed for causing mechanical and technological malfunctions, particularly in aircraft. Originating in Royal Air Force folklore during the 1920s-1940s, gremlins became especially popular during World War II when pilots blamed unexplained mechanical failures on these invisible or barely visible saboteurs. Described as small creatures (6 inches to 3 feet tall) with various appearances—often green or gray with large ears—gremlins evolved from aviation folklore into a broader explanation for any technological failure. Popularized by Roald Dahl's 1943 book \\\"The Gremlins\\\" and the 1984 film, they represent the personification of mechanical failure and human error displacement in the modern age."
     },
     "etymology": {
-      "origin": "Uncertain origin. Possibly from Old English 'gremian' (to vex) or Fremlin beer brand. First documented use in RAF slang 1920s.",
-      "meaning": "One who causes vexation or trouble, particularly to machinery",
-      "first_use": "1920s"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "URBAN_LEGEND",
-      "type": "Modern Folklore",
-      "subtype": "Fae/Technological Spirit",
-      "variant": "Aviation/Mechanical"
+      "type": "Fae / Technological Spirit",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "imp",
-        "name": "Imp",
-        "relationship": "similar",
-        "description": "Traditional European mischievous spirit"
-      },
-      {
-        "id": "goblin",
-        "name": "Goblin",
-        "relationship": "similar",
-        "description": "Mischievous folkloric creature"
-      },
-      {
-        "id": "kobold",
-        "name": "Kobold",
-        "relationship": "similar",
-        "description": "German mine spirit, also associated with machinery"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 0.15,
-        "max": 0.9,
-        "unit": "meters",
-        "confidence": "low"
-      },
-      "coloration": [
-        "green",
-        "gray",
-        "brown"
-      ],
-      "features": [
-        {
-          "feature": "Size",
-          "description": "Small, ranging from 6 inches to 3 feet tall",
-          "frequency": "always"
-        },
-        {
-          "feature": "Ears",
-          "description": "Large, prominent ears",
-          "frequency": "common"
-        },
-        {
-          "feature": "Appearance",
-          "description": "Imp-like or goblin-like features, various descriptions",
-          "frequency": "common"
-        },
-        {
-          "feature": "Visibility",
-          "description": "Invisible or barely visible, rarely seen clearly",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Small humanoid with imp-like features. Descriptions vary widely due to folklore nature."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Mechanical sabotage",
-        "description": "Cause aircraft malfunctions and mechanical failures",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Invisibility",
-        "description": "Remain unseen while causing mischief",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Technology interference",
-        "description": "Modern adaptation: cause computer glitches, car problems",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "any",
-      "disposition": "mischievous",
-      "social_structure": "group",
-      "habitat_preference": [
-        "aircraft",
-        "machinery",
-        "technology",
-        "mechanical spaces"
-      ],
-      "patterns": [
-        "Cause unexplained mechanical failures",
-        "Target aircraft especially",
-        "Perform mischievous pranks",
-        "Work in groups",
-        "Adapt to modern technology"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Global phenomenon originating in British RAF, spread worldwide through military and aviation culture, adapted to any technological context.",
-      "continents": ["Global"],
-      "countries": ["United Kingdom", "United States", "Worldwide"],
-      "regions": [
-        "RAF bases (original)",
-        "Aviation industry worldwide",
-        "Military installations",
-        "Technological workplaces"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1920s",
+        "date": "Unknown",
         "circa": true,
-        "source": "RAF slang"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "1940-1945",
-          "description": "World War II, peak of gremlin folklore among pilots"
-        },
-        {
-          "period": "1984-present",
-          "description": "Popularized by 'Gremlins' film franchise"
-        }
-      ]
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "RAF folklore from 1920s, possibly influenced by traditional imp and goblin folklore. Provided psychological explanation for mechanical failures during dangerous flights.",
-      "earliest_accounts": "RAF pilots in 1920s-1930s Malta and Middle East squadrons",
-      "folklore_connections": "Connected to European imp, goblin, and mischievous fairy traditions"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1920s",
-        "event": "First RAF gremlin references",
-        "significance": "Emergence in RAF slang, particularly Malta squadrons",
-        "source": "RAF oral tradition"
-      },
-      {
-        "date": "1939-1945",
-        "event": "World War II popularization",
-        "significance": "Widespread adoption among Allied pilots, blamed for mechanical failures",
-        "source": "Military accounts and publications"
-      },
-      {
-        "date": "1943",
-        "event": "Roald Dahl's 'The Gremlins'",
-        "significance": "Published by Disney, brought gremlins to mainstream audience",
-        "source": "Published book"
-      },
-      {
-        "date": "1984",
-        "event": "'Gremlins' film released",
-        "significance": "Major cultural phenomenon, redefined gremlins in popular culture",
-        "source": "Film media"
-      }
-    ],
-    "modern_era": "Gremlins have evolved from aviation folklore into a general cultural explanation for technological failures. The term 'gremlins in the system' is commonly used to describe computer glitches, car problems, and any unexplained technical malfunction."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "RAF pilot traditions",
-        "WWII aviation folklore",
-        "Military humor and coping mechanisms"
-      ],
-      "beliefs": "Served as psychological coping mechanism for pilots facing dangerous mechanical failures. Personifying mechanical failure reduced stress and provided camaraderie."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Roald Dahl - 'The Gremlins' (1943)",
-        "Various WWII memoirs and accounts"
-      ],
-      "film_tv": [
-        "Gremlins (1984)",
-        "Gremlins 2: The New Batch (1990)",
-        "Twilight Zone - 'Nightmare at 20,000 Feet' (1963, features gremlin-like creature)"
-      ],
-      "other": [
-        "AMC Gremlin car (named after the creature)",
-        "Computer programming terminology ('bugs' and 'gremlins')",
-        "Military squadron patches and nose art"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "theories": {
-    "folklore": [
-      {
-        "name": "Psychological coping mechanism",
-        "description": "Personification of mechanical failure helped pilots cope with danger and uncertainty",
-        "evidence_cited": ["Widespread adoption during high-stress WWII", "Reduced pilot anxiety"]
-      },
-      {
-        "name": "Human error displacement",
-        "description": "Blaming gremlins displaced responsibility from human mistakes",
-        "evidence_cited": ["Pattern of use when causes were unclear", "Social bonding function"]
-      }
-    ],
-    "cultural": [
-      {
-        "name": "Modern folklore evolution",
-        "description": "Represents evolution of traditional folklore (imps, goblins) into industrial age",
-        "evidence_cited": ["Parallels with traditional mischievous spirits", "Adaptation to technology"]
-      }
-    ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "dahl-1943",
-      "type": "book",
-      "title": "The Gremlins",
-      "authors": ["Roald Dahl"],
-      "publication": "Random House (Disney)",
-      "date": "1943"
-    },
-    {
-      "id": "squadron-folklore",
-      "type": "cultural",
-      "title": "RAF Squadron Folklore and Traditions",
-      "description": "Various RAF historical records and oral traditions"
-    }
-  ]
+  "sources": []
 }
