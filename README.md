@@ -1,266 +1,168 @@
 # Gremlin
 
-> *"The gremlins got into the works again."*
+> Gremlins are mischievous fairy-like creatures of 20th-century aviation folklore, blamed by Royal Air Force pilots from the 1920s onward for unexplained mechanical faults in aircraft.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-folklore-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `gremlin` |
-| **Category** | URBAN_LEGEND |
-| **Classification** | Modern Folklore / Fae |
-| **First Recorded** | 1920s (RAF slang) |
-| **Primary Region** | Global (originated RAF/British) |
-| **Status** | Folklore |
+| **Category** | FAE_FOLKLORE |
+| **Subcategory** | Modern aviation folklore / mischief sprite |
+| **First recorded** | 1920s |
+| **Primary range** | Originated in the British Royal Air Force in the 1920s and spread through Allied air forces during World War II |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-Gremlins are small, imp-like creatures from modern folklore that are blamed for causing mechanical and technological malfunctions, particularly in aircraft. Originating in Royal Air Force folklore during the 1920s-1940s, gremlins became especially popular during World War II when pilots blamed unexplained mechanical failures on these invisible or barely visible saboteurs.
-
-Described as small creatures (6 inches to 3 feet tall) with various appearances—often green or gray with large ears—gremlins evolved from aviation folklore into a broader explanation for any technological failure. Popularized by Roald Dahl's 1943 book "The Gremlins" and the 1984 film, they represent the personification of mechanical failure and human error displacement in the modern age.
+The gremlin is a creature of 20th-century anglophone folklore that originated as RAF slang in the 1920s. Pilots and ground crew used 'gremlins' to humorously personify the otherwise inexplicable mechanical and electrical faults that plagued early aircraft, particularly at altitude. The earliest known printed appearance is a poem in the journal Aeroplane published in Malta on 10 April 1929, although the term was already in informal use. During the Second World War the concept exploded in popularity among RAF aircrew, especially in high-altitude photographic-reconnaissance units. The mythology was popularised for civilian audiences by RAF pilot and writer Roald Dahl, who published the children's book The Gremlins in 1943 in collaboration with Walt Disney; Disney developed extensive concept art and a planned animated feature, eventually abandoned in August 1943. In post-war popular culture, gremlins migrated from aviation into a broader trickster role, culminating in Joe Dante's 1984 horror-comedy film Gremlins (produced by Steven Spielberg) and its 1990 sequel. The classic Twilight Zone episode 'Nightmare at 20,000 Feet' (1963), based on a Richard Matheson short story (1961), is one of the most-cited modern dramatisations of the original aviation legend.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Gremlins | English (RAF slang) | plural form, used since 1920s |
+| Fifinella | English (RAF slang) | female gremlin in Roald Dahl's 1943 book |
+| Widget | English (RAF slang) | male gremlin child (Dahl, 1943) |
+| Flibbertigibbet | English (RAF slang) | female gremlin child (Dahl, 1943) |
 
-### Primary Name
-- **Gremlin** — Uncertain origin. Possibly from Old English "gremian" (to vex) or Fremlin beer brand. First documented use in RAF slang 1920s.
+## Etymology
 
-### Alternative Names
-| Name | Region/Context | Meaning |
-|------|----------------|---------|
-| Gremlins | Plural/collective | Often used to refer to them collectively |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: URBAN_LEGEND
-├── Type: Modern Folklore
-├── Subtype: Fae / Technological Spirit
-└── Variant: Aviation / Mechanical
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Imp](/imp) | Similar | Traditional European mischievous spirit |
-| [Goblin](/goblin) | Similar | Mischievous folkloric creature |
-| Kobold | Similar | German mine spirit, also associated with machinery |
+- **Origin**: Origin disputed. Among the most-cited proposals: a portmanteau of 'goblin' and 'Fremlin' (a popular brand of beer in 1920s RAF messes), and a derivation from Old English gremian, 'to vex'. The term first appears in print in Aeroplane (Malta), 10 April 1929.
+- **Meaning**: A small mechanical-mischief sprite particularly associated with aircraft.
+- **First use**: 1929 (printed); RAF oral usage from the early 1920s
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Kobold](../kobold/) — _similar_: Germanic household and mine spirit; ancestor type for mechanical mischief sprites
+- [Brownie](../brownie/) — _similar_: British household fairy; benevolent counterpart to the gremlin's malevolence
+- [Imp](../imp/) — _similar_: Generic mischievous lesser demon of European folklore
 
-### Physical Description
+---
+## Physical Description
 
-| Attribute | Description | Confidence |
-|-----------|-------------|------------|
-| **Height** | 0.15 - 0.9 meters (6 inches - 3 feet) | Low |
-| **Coloration** | Green, gray, brown | Low |
-| **Build** | Small, imp-like or goblin-like | Low |
+- **Height**: 0.15–0.9 meters _(variable confidence)_
+- **Coloration**: green (most common in modern depictions), grey, brown
+- **Morphology**: Highly variable; no canonical anatomy. Roald Dahl's 1943 design is humanoid with horns and pointed ears; Disney's 1942–43 concept art established the cute, pilot-cap-wearing variant; Joe Dante's 1984 film design is reptilian and toothy.
 
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Size | Small, ranging from 6 inches to 3 feet tall | Always |
-| Ears | Large, prominent ears | Common |
-| Appearance | Imp-like or goblin-like features, various descriptions | Common |
-| Visibility | Invisible or barely visible, rarely seen clearly | Common |
+|---|---|---|
+| Small humanoid form | Variously described as 6 inches to roughly 3 feet tall, with arms, legs, and a face | always |
+| Large pointed ears | Common in 20th-century illustrations and especially in Joe Dante's 1984 film design | common |
+| Sharp claws or fingers | For tampering with mechanical components | common |
+| Often described as nearly invisible | RAF accounts describe gremlins as glimpsed only briefly or not at all | common |
 
-### Reported Abilities
+## Reported Abilities
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Mechanical sabotage | Cause aircraft malfunctions and mechanical failures | Folklore |
-| Invisibility | Remain unseen while causing mischief | Folklore |
-| Technology interference | Modern: cause computer glitches, car problems | Folklore |
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Mechanical sabotage | Cause faults in aircraft engines, instruments, fuel systems, and electrical wiring | always | folklore |
+| Near-invisibility / evasiveness | Rarely seen by aircrew; identified only by their effects | common | folklore |
+| High-altitude tolerance | Operate at altitudes that endanger humans, often associated with photo-reconnaissance flights | common | folklore |
 
-### Behavioral Patterns
+## Behavior
 
-- **Activity Period**: Any time
-- **Disposition**: Mischievous
-- **Social Structure**: Groups
-- **Habitat Preference**: Aircraft, machinery, technology, mechanical spaces
-- **Behavior**: Cause unexplained mechanical failures, target aircraft especially, perform mischievous pranks, work in groups, adapt to modern technology
-
----
-
-## Geographic Distribution
-
-### Primary Range
-
-Global phenomenon originating in British RAF, spread worldwide through military and aviation culture, adapted to any technological context.
-
-### Origins & Spread
-
-- **Origin**: RAF bases (1920s-1940s)
-- **Spread**: Aviation industry worldwide, military installations, technological workplaces
-- **Modern**: Any technological context (computers, cars, electronics)
+- **Activity**: variable
+- **Disposition**: aggressive
+- **Social structure**: variable
+- **Habitat**: aircraft, airfields, machinery, high altitude
+- **Diet**: Not specified (some humorous accounts mention beer or fuel)
 
 ---
+## Distribution
 
+Originated in the British Royal Air Force in the 1920s and spread through Allied air forces during World War II; subsequently a global pop-culture motif.
+
+### Hotspots
+
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| RAF Malta | Malta |  | 1920s |
+
+---
 ## Historical Timeline
 
-### Origins
-
-RAF folklore from 1920s, possibly influenced by traditional imp and goblin folklore. Provided psychological explanation for mechanical failures during dangerous flights.
-
-### Key Events
-
 | Date | Event | Significance |
-|------|-------|--------------|
-| 1920s | First RAF gremlin references | Emergence in RAF slang, particularly Malta squadrons |
-| 1939-1945 | World War II popularization | Widespread adoption among Allied pilots, blamed for mechanical failures |
-| 1943 | Roald Dahl's "The Gremlins" | Published by Disney, brought gremlins to mainstream audience |
-| 1984 | "Gremlins" film released | Major cultural phenomenon, redefined gremlins in popular culture |
+|---|---|---|
+| 1920s | Term 'gremlin' enters RAF slang in Malta, the Middle East, and India | Origin of the modern legend |
+| 1929-04-10 | Earliest known printed reference, in a poem in Aeroplane magazine, Malta | First documentary record |
+| 1942-12 | Roald Dahl's first version of 'The Gremlins' published in Cosmopolitan | Civilian popularisation begins |
+| 1943 | Random House publishes Roald Dahl's children's book 'The Gremlins', illustrated by Walt Disney Studios | Standard text behind the modern image |
+| 1943-08 | Walt Disney's planned animated 'Gremlins' feature is cancelled due to RAF/copyright issues | Locks the gremlin into print/comic-strip form during WWII |
+| 1961 | Richard Matheson publishes the short story 'Nightmare at 20,000 Feet' | Foundational fictional treatment of the in-flight gremlin sighting |
+| 1963-10-11 | The Twilight Zone airs 'Nightmare at 20,000 Feet' (S5E3) starring William Shatner | Iconic televisual depiction of the aviation gremlin |
+| 1984-06-08 | Joe Dante's film 'Gremlins' is released (producer Steven Spielberg) | Reinvents the gremlin as a horror-comedy creature for the cinema age |
+| 1990 | Sequel 'Gremlins 2: The New Batch' released | Cements modern reptilian gremlin design |
 
-### Modern Era
+## Evidence
 
-Gremlins have evolved from aviation folklore into a general cultural explanation for technological failures. The term "gremlins in the system" is commonly used to describe computer glitches, car problems, and any unexplained technical malfunction.
+### Documentary
 
----
-
-## Cultural Significance
-
-### Aviation & Military Folklore
-
-**RAF Origins**: Emerged among RAF pilots in 1920s-1930s, particularly Malta and Middle East squadrons. Provided psychological coping mechanism for pilots facing dangerous mechanical failures.
-
-**WWII Peak**: During World War II, gremlin folklore became widespread among Allied pilots. Blaming gremlins for mechanical failures:
-- Reduced pilot stress and anxiety
-- Provided camaraderie and shared humor
-- Displaced responsibility from human error
-- Helped cope with dangerous situations
-
-**Squadron Culture**: Gremlins appeared in squadron patches, nose art, and military humor.
-
-### Popular Culture
-
-**Literature**:
-- Roald Dahl - "The Gremlins" (1943, Disney publication)
-- Various WWII memoirs and accounts
-- Military folklore collections
-
-**Film/TV**:
-- *Gremlins* (1984) — Redefined gremlins in popular culture
-- *Gremlins 2: The New Batch* (1990)
-- *Twilight Zone* - "Nightmare at 20,000 Feet" (1963, features gremlin-like creature)
-
-**Other**:
-- AMC Gremlin car (named after the creature)
-- Computer programming terminology ("bugs" and "gremlins")
-- Common phrase: "gremlins in the system"
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Aeroplane (Malta) gremlin poem, 10 April 1929 | 1929-04-10 | Earliest known printed reference to gremlins, in a poem published in the RAF magazine Aeroplane in Malta. | verified |
+| The Gremlins by Roald Dahl | 1943 | Picture book illustrated by the Walt Disney Studios; first widely-distributed civilian treatment of the legend. | verified |
 
 ---
-
 ## Theories & Explanations
 
-### Folklore Theories
+### Skeptical
 
-1. **Psychological Coping Mechanism**
-   Personification of mechanical failure helped pilots cope with danger and uncertainty. Provided psychological framework for understanding unpredictable mechanical failures.
+**Cognitive coping mechanism for mechanical failure** _(Marlin Bressi, aviation historians)_
 
-2. **Human Error Displacement**
-   Blaming gremlins displaced responsibility from human mistakes and reduced blame culture, allowing pilots to report problems without shame.
+Gremlins are widely understood by historians of folklore as a humorous, morale-supporting personification of the otherwise random mechanical and aerodynamic failures encountered by early-20th-century aircrew, particularly under combat stress.
 
-### Cultural Theories
+**Folkloric continuity** _(Carol Rose, John W. Hazen)_
 
-1. **Modern Folklore Evolution**
-   Represents evolution of traditional folklore (imps, goblins) into industrial and technological age. Ancient mischievous spirits adapted to modern context.
+Gremlins are the 20th-century mechanical successor to older British fairy and household-spirit traditions (brownies, imps, kobolds).
 
-2. **Occupational Folklore**
-   Example of occupational folklore providing social bonding and shared culture among workers (pilots, mechanics, later tech workers).
 
----
+## Popular Culture
 
-## Modern Usage
+**Literature**: Roald Dahl, The Gremlins (1943); Richard Matheson, 'Nightmare at 20,000 Feet' (1961)
 
-The gremlin concept has fully integrated into modern language and culture:
+**Film / TV**: The Twilight Zone, 'Nightmare at 20,000 Feet' (1963); Twilight Zone: The Movie (1983); Gremlins, dir. Joe Dante (1984); Gremlins 2: The New Batch (1990); Doctor Who 'The Doctor's Wife' (Patchwork People allusion)
 
-- **Technology**: "Gremlins in the system" describes computer glitches and tech malfunctions
-- **Automotive**: Car problems blamed on gremlins
-- **General**: Any unexplained mechanical or technical failure
-- **Psychology**: Represents externalization of technical frustration
+**Games**: Gremlins as antagonists in numerous video and tabletop games; Magic: The Gathering 'Gremlin' creature type
+
+**Other**: Engineering idiom 'gremlins in the system'
 
 ---
+## Research
 
-## Research & Investigation
+### Researchers
 
-### Cultural Studies
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Roald Dahl | Royal Air Force / writer | Popularised gremlin lore in print and animation | 1942–1943 |
+| Carol Rose | folklorist | Encyclopaedic treatment of gremlins among modern folkloric beings | 1990s–2000s |
 
-Gremlins represent important case study in:
-- Occupational folklore development
-- Modern folklore creation (20th century origin)
-- Psychological coping mechanisms
-- Cultural transmission and evolution
-- Traditional folklore adaptation to modern contexts
-
----
-
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Data Access
-
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const gremlin = await wyrd.getPhenomenon('gremlin');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/gremlin/main/api.json
-```
+Subject of folklore and aviation-history scholarship; not a subject of cryptozoological investigation.
 
 ---
+## Sources
 
-## Sources & References
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-See [SOURCES.md](SOURCES.md) for complete bibliography.
 
-### Primary Sources
+## How to Report a Sighting
 
-- Dahl, R. (1943). *The Gremlins*. Random House (Disney).
-- RAF Squadron Folklore and Traditions (various historical records)
-- WWII pilot memoirs and accounts
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._

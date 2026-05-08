@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/gremlin",
     "maintainers": [
       {
@@ -16,72 +16,134 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "gremlin",
     "name": "Gremlin",
-    "aliases": [],
-    "category": "URBAN_LEGEND",
-    "subcategory": "Fae / Technological Spirit",
+    "aliases": [
+      { "name": "Gremlins", "language": "English (RAF slang)", "meaning": "plural form, used since 1920s" },
+      { "name": "Fifinella", "language": "English (RAF slang)", "meaning": "female gremlin in Roald Dahl's 1943 book" },
+      { "name": "Widget", "language": "English (RAF slang)", "meaning": "male gremlin child (Dahl, 1943)" },
+      { "name": "Flibbertigibbet", "language": "English (RAF slang)", "meaning": "female gremlin child (Dahl, 1943)" }
+    ],
+    "category": "FAE_FOLKLORE",
+    "subcategory": "Modern aviation folklore / mischief sprite",
     "tags": [
-      "folklore",
-      "mythology"
+      "modern-folklore",
+      "aviation",
+      "raf",
+      "world-war-ii",
+      "mischief-sprite",
+      "20th-century"
     ],
     "status": "documented",
     "description": {
-      "summary": "Gremlins are small, imp-like creatures from modern folklore that are blamed for causing mechanical and technological malfunctions, particularly in aircraft.",
-      "full": "Gremlins are small, imp-like creatures from modern folklore that are blamed for causing mechanical and technological malfunctions, particularly in aircraft. Originating in Royal Air Force folklore during the 1920s-1940s, gremlins became especially popular during World War II when pilots blamed unexplained mechanical failures on these invisible or barely visible saboteurs. Described as small creatures (6 inches to 3 feet tall) with various appearances—often green or gray with large ears—gremlins evolved from aviation folklore into a broader explanation for any technological failure. Popularized by Roald Dahl's 1943 book \\\"The Gremlins\\\" and the 1984 film, they represent the personification of mechanical failure and human error displacement in the modern age."
+      "summary": "Gremlins are mischievous fairy-like creatures of 20th-century aviation folklore, blamed by Royal Air Force pilots from the 1920s onward for unexplained mechanical faults in aircraft.",
+      "full": "The gremlin is a creature of 20th-century anglophone folklore that originated as RAF slang in the 1920s. Pilots and ground crew used 'gremlins' to humorously personify the otherwise inexplicable mechanical and electrical faults that plagued early aircraft, particularly at altitude. The earliest known printed appearance is a poem in the journal Aeroplane published in Malta on 10 April 1929, although the term was already in informal use. During the Second World War the concept exploded in popularity among RAF aircrew, especially in high-altitude photographic-reconnaissance units. The mythology was popularised for civilian audiences by RAF pilot and writer Roald Dahl, who published the children's book The Gremlins in 1943 in collaboration with Walt Disney; Disney developed extensive concept art and a planned animated feature, eventually abandoned in August 1943. In post-war popular culture, gremlins migrated from aviation into a broader trickster role, culminating in Joe Dante's 1984 horror-comedy film Gremlins (produced by Steven Spielberg) and its 1990 sequel. The classic Twilight Zone episode 'Nightmare at 20,000 Feet' (1963), based on a Richard Matheson short story (1961), is one of the most-cited modern dramatisations of the original aviation legend."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Origin disputed. Among the most-cited proposals: a portmanteau of 'goblin' and 'Fremlin' (a popular brand of beer in 1920s RAF messes), and a derivation from Old English gremian, 'to vex'. The term first appears in print in Aeroplane (Malta), 10 April 1929.",
+      "meaning": "A small mechanical-mischief sprite particularly associated with aircraft.",
+      "first_use": "1929 (printed); RAF oral usage from the early 1920s"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "URBAN_LEGEND",
-      "type": "Fae / Technological Spirit",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "FAE_FOLKLORE",
+      "type": "Mischief sprite",
+      "subtype": "Mechanical / aviation",
+      "variant": "British (RAF) origin, anglophone diffusion"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "kobold", "name": "Kobold", "relationship": "similar", "description": "Germanic household and mine spirit; ancestor type for mechanical mischief sprites" },
+      { "id": "brownie", "name": "Brownie", "relationship": "similar", "description": "British household fairy; benevolent counterpart to the gremlin's malevolence" },
+      { "id": "imp", "name": "Imp", "relationship": "similar", "description": "Generic mischievous lesser demon of European folklore" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.15, "max": 0.9, "unit": "meters", "confidence": "variable" },
+      "coloration": ["green (most common in modern depictions)", "grey", "brown"],
+      "features": [
+        { "feature": "Small humanoid form", "description": "Variously described as 6 inches to roughly 3 feet tall, with arms, legs, and a face", "frequency": "always" },
+        { "feature": "Large pointed ears", "description": "Common in 20th-century illustrations and especially in Joe Dante's 1984 film design", "frequency": "common" },
+        { "feature": "Sharp claws or fingers", "description": "For tampering with mechanical components", "frequency": "common" },
+        { "feature": "Often described as nearly invisible", "description": "RAF accounts describe gremlins as glimpsed only briefly or not at all", "frequency": "common" }
+      ],
+      "morphology": "Highly variable; no canonical anatomy. Roald Dahl's 1943 design is humanoid with horns and pointed ears; Disney's 1942–43 concept art established the cute, pilot-cap-wearing variant; Joe Dante's 1984 film design is reptilian and toothy."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Mechanical sabotage", "description": "Cause faults in aircraft engines, instruments, fuel systems, and electrical wiring", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Near-invisibility / evasiveness", "description": "Rarely seen by aircrew; identified only by their effects", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "High-altitude tolerance", "description": "Operate at altitudes that endanger humans, often associated with photo-reconnaissance flights", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "variable",
+      "habitat_preference": ["aircraft", "airfields", "machinery", "high altitude"],
+      "diet": "Not specified (some humorous accounts mention beer or fuel)",
+      "patterns": [
+        "Sabotage of mechanical and electrical systems",
+        "Concentrated activity during flight, especially at altitude",
+        "Equally afflict friend and foe (RAF and Luftwaffe alike)"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Originated in the British Royal Air Force in the 1920s and spread through Allied air forces during World War II; subsequently a global pop-culture motif.",
+      "continents": ["Europe", "Africa", "Asia", "North America", "Oceania"],
+      "countries": ["United Kingdom", "Malta", "United States", "Canada", "Australia", "India"],
+      "regions": ["Royal Air Force", "Allied air forces of WWII", "anglophone popular culture"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "RAF Malta",
+        "location": {
+          "description": "Royal Air Force stations on Malta; site of the earliest printed reference",
+          "country": "Malta"
+        },
+        "peak_period": "1920s",
+        "notes": "Aeroplane magazine published the earliest printed gremlin poem here on 10 April 1929."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1929-04-10",
+        "circa": false,
+        "source": "Aeroplane (Malta), poem, 10 April 1929"
+      },
+      "peak_activity_periods": [
+        { "period": "1939–1945", "description": "World War II; peak RAF and Allied air-force usage" },
+        { "period": "1984–1990", "description": "Cinematic revival via Joe Dante's Gremlins and its sequel" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "British Royal Air Force aircrew slang of the 1920s, drawing on older British fairy folklore (brownies, kobolds, imps).",
+      "earliest_accounts": "1929 Aeroplane poem; widespread RAF oral tradition through the 1930s and into the Second World War.",
+      "folklore_connections": "Heir to British fairy and household-spirit traditions, recast for the machine age."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1920s", "event": "Term 'gremlin' enters RAF slang in Malta, the Middle East, and India", "significance": "Origin of the modern legend", "source": "Wikipedia, 'Gremlin'" },
+      { "date": "1929-04-10", "event": "Earliest known printed reference, in a poem in Aeroplane magazine, Malta", "significance": "First documentary record", "source": "Aeroplane magazine, 1929" },
+      { "date": "1942-12", "event": "Roald Dahl's first version of 'The Gremlins' published in Cosmopolitan", "significance": "Civilian popularisation begins", "source": "Cosmopolitan, December 1942" },
+      { "date": "1943", "event": "Random House publishes Roald Dahl's children's book 'The Gremlins', illustrated by Walt Disney Studios", "significance": "Standard text behind the modern image", "source": "Dahl, R. (1943), The Gremlins, Random House" },
+      { "date": "1943-08", "event": "Walt Disney's planned animated 'Gremlins' feature is cancelled due to RAF/copyright issues", "significance": "Locks the gremlin into print/comic-strip form during WWII", "source": "Wikipedia, 'Gremlin'" },
+      { "date": "1961", "event": "Richard Matheson publishes the short story 'Nightmare at 20,000 Feet'", "significance": "Foundational fictional treatment of the in-flight gremlin sighting", "source": "Matheson, R. (1961), Alone by Night anthology" },
+      { "date": "1963-10-11", "event": "The Twilight Zone airs 'Nightmare at 20,000 Feet' (S5E3) starring William Shatner", "significance": "Iconic televisual depiction of the aviation gremlin", "source": "CBS broadcast" },
+      { "date": "1984-06-08", "event": "Joe Dante's film 'Gremlins' is released (producer Steven Spielberg)", "significance": "Reinvents the gremlin as a horror-comedy creature for the cinema age", "source": "Warner Bros. (1984)" },
+      { "date": "1990", "event": "Sequel 'Gremlins 2: The New Batch' released", "significance": "Cements modern reptilian gremlin design", "source": "Warner Bros. (1990)" }
+    ],
+    "modern_era": "Gremlins persist as a stock figure in anglophone pop culture: in the engineering proverb 'gremlins in the system', in the Joe Dante films, and in television (Doctor Who, The Twilight Zone) and games."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +154,102 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "gremlin-evidence-aeroplane-1929",
+        "type": "magazine article",
+        "name": "Aeroplane (Malta) gremlin poem, 10 April 1929",
+        "date": "1929-04-10",
+        "description": "Earliest known printed reference to gremlins, in a poem published in the RAF magazine Aeroplane in Malta.",
+        "status": "verified",
+        "source": "Aeroplane magazine, 1929"
+      },
+      {
+        "id": "gremlin-evidence-dahl-1943",
+        "type": "book",
+        "name": "The Gremlins by Roald Dahl",
+        "date": "1943",
+        "description": "Picture book illustrated by the Walt Disney Studios; first widely-distributed civilian treatment of the legend.",
+        "status": "verified",
+        "source": "Random House (1943)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cognitive coping mechanism for mechanical failure",
+        "description": "Gremlins are widely understood by historians of folklore as a humorous, morale-supporting personification of the otherwise random mechanical and aerodynamic failures encountered by early-20th-century aircrew, particularly under combat stress.",
+        "proponents": ["Marlin Bressi", "aviation historians"],
+        "evidence_cited": ["Concentration of accounts in WWII high-altitude reconnaissance units", "Symmetry of reports across Allied and Axis air forces", "Match between 'gremlin' faults and known materials/altitude failures"]
+      },
+      {
+        "name": "Folkloric continuity",
+        "description": "Gremlins are the 20th-century mechanical successor to older British fairy and household-spirit traditions (brownies, imps, kobolds).",
+        "proponents": ["Carol Rose", "John W. Hazen"],
+        "evidence_cited": ["Etymological linkage to gremian / Fremlin Beer", "Structural parallels with kobold mining-fairy stories"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "RAF aviation folklore, 1920s–1940s",
+        "Allied air-forces oral tradition, WWII"
+      ],
+      "stories": [
+        "Roald Dahl's autobiographical Gremlin lore",
+        "Richard Matheson, 'Nightmare at 20,000 Feet' (1961)"
+      ],
+      "beliefs": "Used both as a humorous in-group explanation for inexplicable failures and as a morale-supporting collective myth."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Roald Dahl, The Gremlins (1943)",
+        "Richard Matheson, 'Nightmare at 20,000 Feet' (1961)"
+      ],
+      "film_tv": [
+        "The Twilight Zone, 'Nightmare at 20,000 Feet' (1963)",
+        "Twilight Zone: The Movie (1983)",
+        "Gremlins, dir. Joe Dante (1984)",
+        "Gremlins 2: The New Batch (1990)",
+        "Doctor Who 'The Doctor's Wife' (Patchwork People allusion)"
+      ],
+      "games": [
+        "Gremlins as antagonists in numerous video and tabletop games",
+        "Magic: The Gathering 'Gremlin' creature type"
+      ],
+      "music": [],
+      "other": [
+        "Engineering idiom 'gremlins in the system'"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Roald Dahl", "affiliation": "Royal Air Force / writer", "contribution": "Popularised gremlin lore in print and animation", "period": "1942–1943" },
+      { "name": "Carol Rose", "affiliation": "folklorist", "contribution": "Encyclopaedic treatment of gremlins among modern folkloric beings", "period": "1990s–2000s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Subject of folklore and aviation-history scholarship; not a subject of cryptozoological investigation."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-gremlin", "type": "website", "title": "Gremlin", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Gremlin", "accessed": "2026-05-07" },
+    { "id": "dahl-1943", "type": "book", "title": "The Gremlins", "authors": ["Roald Dahl"], "publication": "Random House", "date": "1943" },
+    { "id": "matheson-1961", "type": "book", "title": "Nightmare at 20,000 Feet (in Alone by Night)", "authors": ["Richard Matheson"], "date": "1961" },
+    { "id": "rose-1996", "type": "book", "title": "Spirits, Fairies, Leprechauns, and Goblins: An Encyclopedia", "authors": ["Carol Rose"], "publication": "W. W. Norton", "date": "1996", "isbn": "978-0393317923" }
+  ]
 }
